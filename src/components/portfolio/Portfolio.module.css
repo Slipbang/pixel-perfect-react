@@ -1,0 +1,26 @@
+.portfolio {
+    margin-bottom: 150px;
+}
+
+.portfolio__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 0;
+}
+
+.portfolio__gridItem {}
+
+.portfolio__img {}
+
+@media screen and (max-width: 1110px) {
+    .portfolio__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

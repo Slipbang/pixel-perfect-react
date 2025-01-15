@@ -1,0 +1,30 @@
+.footer {
+    background-color: var(--dark-color);
+    padding: 30px 0;
+    color: var(--white-color);
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright {}
+
+.footer__brand {}
+
+@media screen and (max-width: 1110px) {
+    .footer {
+        padding: 30px 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__flex {
+        flex-direction: column;
+    }
+    .footer__copyright {
+        margin-bottom: 15px;
+    }
+}
